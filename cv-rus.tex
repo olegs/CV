@@ -1,0 +1,116 @@
+% Workaround for problem  
+% Command \CYRE unavailable in encoding OT1.
+% http://tex.stackexchange.com/questions/86078/strange-latex-compilation-errors-triggered-by-the-number-of-lines-on-the-page
+
+
+\documentclass[10pt]{article}
+\usepackage{array, xcolor}
+\usepackage[margin=3cm]{geometry}
+\usepackage{hyperref}
+
+\usepackage{fontspec}
+\defaultfontfeatures{Scale=MatchLowercase,Mapping=tex-text}
+\setmainfont[Ligatures=TeX]{DejaVu Serif}
+\setsansfont[Ligatures=TeX]{DejaVu Sans}
+\setmonofont{DejaVu Sans Mono}
+
+\usepackage[utf8]{inputenc}
+\usepackage[russian,english]{babel}
+ 
+\title{\bfseries\Huge Олег Шпынов}
+\author{oleg.shpynov@gmail.com}
+\date{}
+ 
+\definecolor{lightgray}{gray}{0.8}
+\newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
+\newcolumntype{R}{p{0.8\textwidth}}
+\newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
+ 
+\begin{document}
+\maketitle
+\vspace{1em}
+\begin{minipage}[ht]{0.75\textwidth}
+Шуваловский пр. 84 135\\
+Санкт-Петербург\\
+Россия\\
+197345
+\end{minipage}
+\begin{minipage}[ht]{0.25\textwidth}
+7 Апреля 1986\\
++7 904 331 35 04
+\end{minipage}
+\vspace{20pt}
+ 
+\section*{Общее}
+Сильная математическа подготовка. Более 9 лет опытка разработки программных продуктов.\\
+Опыт в сферах биоинформатики, машинного обучения, статистики, компиляторов. \\
+Хорошие коммуникативные и навыки командной работы.
+ 
+\section*{Опыт работы}
+\begin{tabular}{L!{\VRule}R}
+2012-- & {\bf Исследователь JetBrains Biolabs}\\
+& Целями \href{http://research.jetbrains.org/groups/biolabs}{научной группы JetBrains Biolabs} являются исследования фундаментальных механизмов, определящих процессы эпигенетической регуляции у человека и других животных, и роль этих механизмов в процессах дифференциации и старения клеток.\\
+& Координация деятельности проекта, анализ NGS данных, генерация семантических правил, разработка пакета анализа эпигенетических данных, серверный геномный браузер, Байесовские вероятностные сети.\\
+& \\
+2012--2014 & {\bf Научный руководитель}\\
+& \href{http://bioinformaticsinstitute.ru/teachers/shpynov}{Научный руководитель} двух успешно защитившихся магистров по направлению "Теоретическая Биоинформатика" Санкт-Петербургского Академического Университета.\\
+& \\
+2012--2013 & {\bf Технический руководитель}\\
+& Руководство технической частью, архитектура и дизайн студенческого проекта Genome Query, серверного программного продукта для поиска геномных выравниваний, генов, итд с помощью удобного синтаксиса запросов. \\
+& \\
+2006--2013 & {\bf Старший разработчкик JetBrains}\\
+& Основатель среды разработки \href{http://jetbrains.com/ruby}{RubyMine IDE}. Разработка архитектуры для поддержки языка программрования Ruby в интегрированной среде разработки IntellIJ IDEA. Разработка VIM эмулятора для IntelliJ IDE. Интеграция сервиса контроля версий и хранения исходных кодов Github. \\
+& Низкоуровневая поддержка языков, разработка парсеров, типовых систем, статического анализа, итд. \\
+\end{tabular}
+ 
+ 
+\section*{Образование}
+\begin{tabular}{L!{\VRule}R}
+2015 & Школа по машинному обучению и искуственному интеллекту, Microsoft, Россия \\
+& Машинное обучение, искуственный интеллект, статистика. \\ 
+& \\
+2011--2012 & Санкт-Петербургский Академический Университет — научно-образовательный центр нанотехнололгий РАН, Россия\\
+& Биоинформатика, молекулярная биология, статистика. \\
+& \\
+2003--2008 & {\bf Санкт-Петербургский Государственный Университет, Россия}\\[5pt]
+& Математико-механический факультет, кафедра Системного программирования. \\
+& \\
+2008--2010 & Санкт-Петербургский Государственный Университет, Россия \\
+& Аспирант Математико-механический факультета, кафедры Системного программирования. \\
+\end{tabular}
+
+\section*{Публикации}
+\begin{tabular}{L!{\VRule}R}
+2015 & S. Lebedev, R. Chernyatchik, O. Shpynov "CMeth: a Bayesian semiparametric model
+for differential methylation analysis", препринт доступен по \href{http://bit.ly/cmeth-preprint}{ссылке}
+\end{tabular}
+
+ 
+\section*{Языки}
+\begin{tabular}{L!{\VRule}R}
+Русский & Родной\\
+Английский & Свободный\\
+Французский & Начинающий \\
+Немецкий & Начинающий \\
+\end{tabular}
+
+
+
+\section*{Достижения}
+\begin{tabular}{L R}
+& Закончил с отличием Санкт-Петербургский Государственный Университет\\
+& \\
+& Вошел в топ 20 из 500+ комманд в соревнованию по функциональному программирования ICFPC 2012\\
+& \\
+& Выступал в комманде университета в региональных чемпионатах по программированию ACM \\
+& \\
+&  Неоднократный победитель школьных олимпиад Сантк-Петербуга по математике, физике и программированию
+\end{tabular}
+
+\section*{Увлечения}
+\begin{tabular}{L R}
+	& Биоинформатика, машинное обучение, искусственный интеллект, компиляторы, экономика.\\
+	& Путешествия, походы, сноуборд, велосипед, дайвинг, фотография.\\
+\end{tabular}
+ 
+\end{document}
