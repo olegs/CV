@@ -1,0 +1,27 @@
+ФИО: Шпынов Олег Юрьевич
+Место работы: ООО «Интеллиджей Лабс», программист.
+
+Биография
+
+В 2008 году с отличием закончил обучение на математико-механическом факультете Санкт-Петербургского Государственного Университета, кафедры системного программирования под руководством профессора Терехова А.Н. Выпускная квалификационная работа была посвящена статическому анализа динамического языка программирования, в рамках работы была разработана теоретическая система типов и обоснована корректность, реализован алгоритм анализа компьютерных программ на языке программирования Ruby. Результаты работы были успешно внедрены в коммерческом продукте RubyMine компании ООО «Интеллиджей Лабс» (JetBrains).
+
+В период 2008-2018гг. проходил обучение в аспирантуре, получено удостоверение по форме 2.2 об успешной сдаче кандидатских экзаменов по специальности 05.13.18 “Математическое моделирование, численные метода и комплексы программ”.
+
+В 2013 году проходил обучение на курсах повышения квалификации по Биоинформатике при Санкт-Петербургском национальном исследовательском Академическом университете имени Ж. И. Алфёрова Российской академии наук.
+В рамках курса студентами были изучены такие предметы как: основы молекулярной биологии, алгоритмы в биоинформатике, основы статистики, анализ данных NGS, введение в базы данных и основные форматы данных биоинформатики.
+
+В данный момент я работаю в научно-исследовательском подразделении компании JetBrains Research. C 2013 года я работаю в группе BioLabs (https://research.jetbrains.org/groups/biolabs/), а с 2018 года руковожу группой. Деятельность группы направлена на изучение механизмов эпигенетики в процессах развития и старения, мы разрабатываем новые алгоритмы и инструменты для анализа биологических данных.  Результаты работы группы публикуются в престижных научных журналах, например Nature Aging, Immunity, Bioinformatics.
+
+С 2018 года участвую в организации семинаров по системной биологии, проводимых Институтом Биоинформатики совместно с университетом ИТМО и Университетом Вашингтона в г. Сент-Луис, США. С 2019 года преподаю вычислительные методы анализа эпигенетических данных в магистратуре по системной биологии университета ИТМО.
+
+Участвую в различных школах и семинарах по бионформатике. Являюсь научным руководителем нескольких магистерских работ по биоинформатике.
+
+Избранные публикации:
+1.	Oleg Shpynov, Aleksei Dievskii, Roman Chernyatchik, Petr Tsurinov and Maxim N. Artyomov, Semi-supervised peak calling with SPAN and JBR Genome Browser. Bioinformatics (2021)
+2.	Shchukina I., Bagaitkar J., Shpynov O. et al. Enhanced epigenetic profiling of classical human monocytes reveals a specific signature of healthy aging in the DNA methylome. Nat Aging 1, 124–141 (2021)
+3.	Denis A. Mogilenko, Oleg Shpynov, et al. Comprehensive Profiling of an Aging Immune System Reveals Clonal GZMK+ CD8+ T Cells as Conserved Hallmark of Inflammaging, Immunity 54(1), 99-115.e12 (2021)
+
+Другие публикации:
+1.	Anna Nikiforovskaya, Nikolai Kapralov, Anna Vlasova, Oleg Shpynov, Aleksei Shpilman. Automatic generation of reviews of scientific papers.  19th IEEE International Conference on machine learning and applications, December 14-17, 2020, Miami, Florida. Proceedings (2020)
+2.	Jeremy P. Huynh, Chih-Chung Lin, Jacqueline M. Kimmey, Nicholas N. Jarjour, Elizabeth A. Schwarzkopf, Tara R. Bradstreet, Irina Shchukina, Oleg Shpynov, Casey T. Weaver, Reshma Taneja, Maxim N. Artyomov, Brian T. Edelson, Christina L. Stallings. Bhlhe40 is an essential repressor of IL-10 during Mycobacterium tuberculosis infection. J Exp Med  215 (7): 1823–1838 (2018)
+
