@@ -11,83 +11,82 @@
 \usepackage{enumitem}
 
 \usepackage{fontspec}
-\defaultfontfeatures{Scale=MatchLowercase,Mapping=tex-text}
-\setmainfont[Ligatures=TeX]{DejaVu Serif}
-\setsansfont[Ligatures=TeX]{DejaVu Sans}
+\setmainfont{Helvetica}
+\setsansfont{DejaVu Sans}
 \setmonofont{DejaVu Sans Mono}
- 
- \usepackage[none]{hyphenat}
-  
+\usepackage{fontsize}
+\changefontsize[13]{12}
+
+\usepackage[none]{hyphenat}
+
 \title{\bfseries\Huge Oleg Shpynov}
-\author{oleg.shpynov@gmail.com}
+\author{\textbf{oleg.shpynov@gmail.com}}
 \date{}
- 
+
 \definecolor{lightgray}{gray}{0.8}
-\newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
+\newcolumntype{L}{>{\raggedleft}p{0.16\textwidth}}
 \newcolumntype{R}{p{0.8\textwidth}}
 \newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
- 
+
 %%% Begin Document
 \begin{document}
-\begin{wrapfigure}{r}{0.3\textwidth}
-    \vspace*{-4cm} % moving actual picture up
-	\hfill\includegraphics[width=0.20\textwidth]{me2020.png}
-    \vspace*{-4cm} % avoid real text wrapping
-\end{wrapfigure}
-
-\maketitle 
-
-%%% Personal details
-\begin{minipage}[ht]{0.4\textwidth}
-Shuvalovsky pr. 88-1-58\\
-Saint-Petersburg\\
-Russia\\
-197345
-\end{minipage}
-\begin{minipage}[ht]{0.3\textwidth}
-April 7th, 1986\\
-+7 904 331 35 04
-\end{minipage}
-\vspace{10pt}
+	\maketitle 
+	
+	\begin{wrapfigure}{r}{0.4\textwidth}
+		\vspace*{-4cm} % moving actual picture up
+		\hfill\includegraphics[width=0.20\textwidth]{me2020.png}
+		\vspace*{-4cm} % avoid real text wrapping
+	\end{wrapfigure}
+	
+	
+	
+	%%% Personal details
+	\hspace*{-0.6cm}\begin{minipage}[ht]{0.4\textwidth}
+		80999 Waltenbergerstr. 11\\
+		Munich, Germany
+	\end{minipage}
+	\begin{minipage}[ht]{0.4\textwidth}
+		April 7th, 1986\\
+		+ 49 177 6904790
+	\end{minipage}
+	\vspace{10pt}
 
 %%% About me short
 \section*{Summary}
-Seasoned research and development engineering leader with strong math background, good communication and teamwork skills. I am leading a group that develops machine learning algorithms, bioinformatics software and scalable computational  pipelines for data analysis. Took part in the development of major JetBrains products with focus on the code analysis from lexical analysis to advanced type system development and semantic verifications.
+Seasoned research and development engineering leader with strong math background, good \\
+communication and teamwork skills. I am leading a group that develops machine learning algorithms, bioinformatics software and scalable computational  pipelines for data analysis. Took part in the development of major JetBrains products with focus on the code analysis from lexical analysis to advanced type system development and semantic verifications.
 %%% Professional experience
 \section*{Experience}
 \begin{tabular}{L!{\VRule}R}
-2013 -- today & \textbf{Research and Development Team Lead}\\
-& \textit{JetBrains Research, Saint-Petersburg, Russia}\\[5pt]
+2016 -- today & \textbf{Research and Development Team Lead}\\
+& \textit{JetBrains Research, Munich, Germany}\\[5pt]
 & Head of research and development group. Group is developing novel algorithms and methods for experimental data analysis, building scalable computational pipelines and tools, and working in collaboration with researchers on various bionformatics studies.\\
 & \setlist{nolistsep}
 
 \begin{itemize}[noitemsep]
 	\item Built a team of software developers with expertise in software development, machine learning, data analysis and bioinformatics
 	\item Lead development of two products: \href{https://github.com/JetBrains-Research/jbr}{JBR Genome Browser} and \href{https://github.com/JetBrains-Research/span}{SPAN Semi-supervised Peak Analyzer}
-	\item Developed various open source libraries including Viktor (fast f64 computations for Kotlin), Bioinf-commons (Bioinformatics library in Koltin), big (BigBed/Wig files format support for JVM), npy (Numpy arrays support for JVM)
+	\item Developed various open source libraries including Viktor (vector computations for Kotlin), Bioinf-commons (Bioinformatics library in Koltin), big (BigBed/Wig files format support for JVM), npy (Numpy arrays support for JVM)
 	\item Developed web application for scientific papers analysis \href{https://github.com/JetBrains-Research/pubtrends}{PubTrends}
 	\item Authored scientific papers
 	\item Onboarding and mentoring software developers of all levels
 	\item Coordinated research and development activities
 
 \end{itemize}\\
-& Applied technologies: Unix, Java, Kotlin, Swing, Python, Jupyter, Pandas, Matplotlib, Docker, Docker Compose, PostgreSQL, Neo4j, Flask, Celery, Nltk, Pytorch, HTML, CSS, Javascript, React, Bootstrap, Git, GitHub, AWS, Continuous Integration TeamCity\\
-\\
+& Applied technologies: Unix, Java, Kotlin, Swing, Python, Jupyter, Pandas, Matplotlib, Docker, Docker Compose, PostgreSQL, Neo4j, Flask, Celery, Nltk, Pytorch, HTML, CSS, Javascript, React, Bootstrap, Git, GitHub, AWS, Continuous Integration TeamCity\\[5pt]
 & Group website: \href{https://research.jetbrains.org/groups/biolabs}{https://research.jetbrains.org/groups/biolabs}\\
 & Personal GitHub account: \href{https://github.com/olegs}{https://github.com/olegs}\\
-\\
 \end{tabular}
 
 \begin{tabular}{L!{\VRule}R}
 
-2014 -- today  & \textbf{Students mentor}\\
+2014 -- today  & \textbf{Students Mentor}\\
 & \textit{Computer Science Center, Saint-Petersburg, Russia}\\
 & \textit{Higher School of Economics, Saint-Petersburg, Russia}\\
-& \textit{Bioinformatics Institute, Saint-Petersburg, Russia}\\
+& \textit{Bioinformatics Institute, Saint-Petersburg, Russia}\\[5pt]
 & Mentored various student project in software development and machine learning including two successful Masters dissertations\\
-\\
-
-2006 -- 2013 & \textbf{Senior software developer}\\
+& \\
+2006 -- 2013 & \textbf{Senior Software Developer}\\
 & \textit{JetBrains, Saint-Petersburg, Russia}\\[5pt]
 & Main focus was on the analysis of source code in programming languages, starting from lexical analysis to advanced type system development and source code semantic verifications.  Developed from scratch the most intelligent IDE for Ruby and Rails - RubyMide IDE, language and frameworks support.\\
 
@@ -101,10 +100,8 @@ Seasoned research and development engineering leader with strong math background
 	\item Participated in conferences on Ruby on Rails as a speaker
 	\item Authored \href{https://blog.jetbrains.com/ruby/author/oleg_s/}{blog} blogposts on Rubymine, IntelliJ IDEA, etc.
 \end{itemize}\\
-& Applied technologies: Ruby, Rails, Unix, Java, Concurrency, IDE, Swing, Git, GitHub, Continuous Integration TeamCity\\
-\\
+& Applied technologies: Ruby, Rails, Unix, Java, Concurrency, IDE, Swing, Git, GitHub, Continuous Integration TeamCity\\[5pt]
 & Website: \href{https://www.jetbrains.com}{https://www.jetbrains.com/}\\
-\\
 
 \end{tabular}
 
@@ -125,23 +122,21 @@ Seasoned research and development engineering leader with strong math background
 2011 -- 2012 & Saint-Petersburg Academic University — Nanotechnology Research and Education Centre of the Russian Academy of Sciences, Russia\\
 & Bioinformatics, molecular biology, statistics. \\
 & \\
-2008 -- 2010 & Post graduate student (PhD) in Computer Science, Faculty of Mathematics and Mechanics, Saint-Petersburg State University, Russia \\
-& \\
-2003 -- 2008 & Masters in Computer Science, score 4.8 of 5. Saint-Petersburg State University, Russia \\
+2003 -- 2008 & Masters in Computer Science, Diploma with honors, score 4.9 of 5. \\
+& Saint-Petersburg State University, Russia \\
 & Faculty of Mathematics and Mechanics, Department of System Programming \\
 \end{tabular}
  
-\section*{Selected publications}
+\section*{Publications}
 \begin{tabular}{L!{\VRule}R}
-2021 & Oleg Shpynov, Kapralov Nikolai. "PubTrends: a scientific literature explorer", BCB '21: Proceedings of the 12th ACM Conference on Bioinformatics, Computational Biology, and Health Informatics, Article No.: 72, Pages 1
- \\
+2021 & \textbf{Oleg Shpynov}, Kapralov Nikolai; "PubTrends: a scientific literature explorer", BCB '21: Proceedings of the 12th ACM Conference on Bioinformatics, Computational Biology, and Health Informatics, Article No.: 72, Pages 1 \\
+
 & \href{https://dl.acm.org/doi/10.1145/3459930.3469501}{DOI 10.1145/3459930.3469501}\\
-
-2021 & Oleg Shpynov, Aleksei Dievskii, Roman Chernyatchik, Petr Tsurinov, Maxim N Artyomov. "Semi-supervised peak calling with SPAN and JBR Genome Browser", Bioinformatics, Volume 37, Issue 22, 15 November 2021, Pages 4235–4237
-\\
+&\\
+2021 & \textbf{Oleg Shpynov}, Aleksei Dievskii, Roman Chernyatchik, Petr Tsurinov, Maxim N Artyomov; "Semi-supervised peak calling with SPAN and JBR Genome Browser", Bioinformatics, Volume 37, Issue 22, 15 November 2021, Pages 4235–4237\\
 & \href{https://doi.org/10.1093/bioinformatics/btab376}{DOI 10.1093/bioinformatics/btab376}\\
-
-2020 & Anna Nikiforovskaya, Nikolai Kapralov, Anna Vlasova, Oleg Shpynov, Aleksei Shpilman. "Automatic generation of reviews of scientific papers, 2020 19th IEEE International Conference on Machine Learning and Applications (ICMLA)\\
+&\\
+2020 & Anna Nikiforovskaya, Nikolai Kapralov, Anna Vlasova, \textbf{Oleg Shpynov}, Aleksei Shpilman; "Automatic generation of reviews of scientific papers, 2020 19th IEEE International Conference on Machine Learning and Applications (ICMLA)\\
 & \href{https://doi.org/10.1109/ICMLA51294.2020.00058}{DOI 10.1109/ICMLA51294.2020.00058}\\
 \end{tabular}
 
@@ -149,13 +144,13 @@ Seasoned research and development engineering leader with strong math background
 \begin{tabular}{L!{\VRule}R}
 Russian & Native\\
 English & Fluent\\
-Deutsch & Elementary
+German & Elementary
 \end{tabular}
 
 \section*{Honors and Awards}
 \begin{tabular}{L R}
-& Graduated Saint-Petersburg State University cum laude\\
-&  Winner of Saint-Petersburg state school contests on math, physics, programming
+& ACM ICPC programming contests participant in University Team \\
+&  Winner of Saint-Petersburg State school contests on Mathematics, Physics, Programming
 \end{tabular}
 
 \section*{Interests}
